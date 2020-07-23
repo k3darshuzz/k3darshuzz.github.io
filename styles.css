@@ -1,0 +1,70 @@
+*{
+    box-sizing : border-box;
+}
+#about-me{
+    max-width: 400px;
+
+    text-align : center;
+    color : white;
+    background-color: rgba(37, 37, 37, 0.342);
+    position : relative;
+    top : 200px;
+    left : 350px;
+}
+.all{
+    background-image : url("j7.jpg");
+}
+.top-container{
+   
+    min-height :570px;
+}
+container{
+    min-width :100%;
+}
+
+.nav li{
+    margin:10px;
+}
+.footer-bottom{
+    clear : left;
+    box-sizing:content-box;
+    padding: 5px;
+    color:rgb(168, 167, 167);
+    background-color : rgb(37, 37, 37);
+    height: 33em;
+    }
+#emails{
+    color : rgb(168, 167, 167) ;
+}
+a{
+    color : white;
+}
+table{
+    background-color: white;
+    border-radius : 10px;
+}
+tr.socialNetworks{
+    
+    display: inline;
+    
+}
+#fb,#insta,#twitter{
+    width : 40px !important ;
+    height : 40px !important;
+}
+@media only screen and (min-width: 720px) {
+    .topcontainer{
+        height : 570px;
+    }
+    #about-us{
+        position : relative;
+        left : 350px;
+    }
+
+@media only screen and (max-width: 900px) {
+    p #about-me{
+        position : absolute;
+        left : 0px; 
+    } 
+    }
+    }
